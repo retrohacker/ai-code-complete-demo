@@ -1,0 +1,15 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "onchange '**/*.js' -- node index.js '{{file}}'",
+    "lint": "prettier --write ."
+  },
+  "dependencies": {
+    "acorn": "^8.8.2",
+    "dotenv": "^16.0.3",
+    "onchange": "^7.1.0",
+    "prettier": "^2.8.3",
+    "undici": "^5.16.0"
+  }
+}
